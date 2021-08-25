@@ -1,0 +1,41 @@
+form{
+    margin-right:40px;
+    padding: 40px;
+    display: inline-block;
+    box-shadow: 0px 0px 20px rgba(87, 85, 85, 0.6);
+    align-self: flex-start;
+    border-radius: 10px;
+}
+input,label,textarea{
+    display: block;
+    margin-bottom: 10px;
+}
+textarea{
+    resize: none;
+    width: 400px;
+    height: 200px;
+}
+input{
+    width: 400px;  
+}
+input,textarea{
+    border-radius:5px;
+    border:1px solid rgba(87, 85, 85, 0.4);
+    padding: 5px;
+    &:focus-visible{
+        outline: none;
+    }
+}
+.empty-input{
+    border: 3px solid red;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.6);
+}
+.warning-input{
+    margin-left: 40px;
+    color: red;
+}
+.send-error{
+    color:red;
+    margin-left: 40px;
+
+}
